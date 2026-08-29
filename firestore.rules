@@ -1,0 +1,84 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isEditorOrAdmin() {
+      return isAuthenticated() && 
+        (get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin' ||
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'editor');
+    }
+
+    function isAdmin() {
+      return isAuthenticated() && 
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin';
+    }
+
+    // Public readable content managed by admin
+    match /settings/{docId} {
+      allow read: if true;
+      allow write: if isEditorOrAdmin();
+    }
+
+    match /heroSlides/{slideId} {
+      allow read: if true;
+      allow write: if isEditorOrAdmin();
+    }
+
+    match /programs/{progId} {
+      allow read: if true;
+      allow write: if isEditorOrAdmin();
+    }
+
+    match /campaigns/{campId} {
+      allow read: if true;
+      allow write: if isEditorOrAdmin();
+    }
+
+    match /impactStats/{statId} {
+      allow read: if true;
+      allow write: if isEditorOrAdmin();
+    }
+
+    match /posts/{postId} {
+      allow read: if true;
+      allow write: if isEditorOrAdmin();
+    }
+
+    match /successStories/{storyId} {
+      allow read: if true;
+      allow write: if isEditorOrAdmin();
+    }
+
+    match /gallery/{itemId} {
+      allow read: if true;
+      allow write: if isEditorOrAdmin();
+    }
+
+    // Public write-only submissions (messages, volunteers, donations)
+    match /messages/{msgId} {
+      allow create: if true;
+      allow read, update, delete: if isEditorOrAdmin();
+    }
+
+    match /volunteers/{volId} {
+      allow create: if true;
+      allow read, update, delete: if isEditorOrAdmin();
+    }
+
+    match /donations/{donId} {
+      allow create: if true;
+      allow read, update, delete: if isEditorOrAdmin();
+    }
+
+    // User authentication roles
+    match /users/{userId} {
+      allow read: if isAuthenticated() && (request.auth.uid == userId || isAdmin());
+      allow write: if isAdmin();
+    }
+  }
+}
