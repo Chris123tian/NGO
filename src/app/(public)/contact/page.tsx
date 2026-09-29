@@ -18,7 +18,7 @@ export default async function ContactPage() {
             Get in Touch
           </span>
           <h1 className="text-4xl sm:text-5xl font-extrabold font-heading text-white tracking-tight">
-            Contact HopeReach Ghana
+            Contact Rescue Foundation Ghana
           </h1>
           <p className="text-base sm:text-lg text-emerald-100/90 max-w-2xl mx-auto font-light leading-relaxed">
             Have questions about our programs, donations, or partnerships? We're here to assist you.
@@ -97,7 +97,7 @@ export default async function ContactPage() {
                   Chat directly with our field operations team on WhatsApp for immediate inquiries or donation support.
                 </p>
                 <a
-                  href={`https://wa.me/${settings.whatsapp}?text=Hello%20HopeReach%20Ghana`}
+                  href={`https://wa.me/${settings.whatsapp}?text=Hello%20Rescue%20Foundation%20Ghana`}
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center justify-center space-x-2 bg-emerald-700 hover:bg-emerald-600 text-white font-bold w-full py-3 rounded-xl text-xs transition-colors shadow"

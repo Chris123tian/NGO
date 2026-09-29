@@ -13,7 +13,7 @@ export default function PrivacyPage() {
           Privacy Policy & Ethical Principles
         </h1>
         <p className="text-xs text-gray-500 font-light">
-          Last updated: August 2026 • HopeReach Ghana Foundation
+          Last updated: August 2026 • Rescue Foundation Ghana
         </p>
       </div>
 
@@ -25,7 +25,7 @@ export default function PrivacyPage() {
             <span>1. Ethical Beneficiary Protection & Responsible Photography</span>
           </h2>
           <p>
-            Because HopeReach Ghana Foundation works closely with vulnerable children, orphans, widows, and low-income families in rural communities, we strictly adhere to ethical photography and storytelling guidelines. We never display beneficiaries in degrading, exploitative, or sensationalized ways. Informed consent is obtained from guardians and community leaders prior to capturing or publishing media.
+            Because Rescue Foundation Ghana works closely with vulnerable children, orphans, widows, and low-income families in rural communities, we strictly adhere to ethical photography and storytelling guidelines. We never display beneficiaries in degrading, exploitative, or sensationalized ways. Informed consent is obtained from guardians and community leaders prior to capturing or publishing media.
           </p>
         </section>
 
@@ -55,7 +55,7 @@ export default function PrivacyPage() {
             <span>4. Contact Information</span>
           </h2>
           <p>
-            For any privacy inquiries or request for data removal, please contact our privacy officer at info@hopereachghana.org or via our Tamale headquarters.
+            For any privacy inquiries or request for data removal, please contact our privacy officer at info@rescuefoundationghana.org or via our Tamale headquarters.
           </p>
         </section>
 

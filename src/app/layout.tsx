@@ -13,8 +13,8 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "HopeReach Ghana Foundation | Humanitarian NGO in Northern Ghana",
-  description: "Official platform of HopeReach Ghana Foundation. Supporting underprivileged children, needy families, orphans, students, and deprived communities across Northern Ghana with food, clothing, and education.",
+  title: "Rescue Foundation Ghana | Humanitarian NGO in Northern Ghana",
+  description: "Official platform of Rescue Foundation Ghana. Supporting underprivileged children, needy families, orphans, students, and deprived communities across Northern Ghana with food, clothing, and education.",
   keywords: [
     "NGO Ghana",
     "charity organization Ghana",
@@ -29,12 +29,12 @@ export const metadata: Metadata = {
     "Bolgatanga NGO",
     "Wa NGO"
   ],
-  authors: [{ name: "HopeReach Ghana Foundation" }],
+  authors: [{ name: "Rescue Foundation Ghana" }],
   openGraph: {
-    title: "HopeReach Ghana Foundation - Giving Hope in Northern Ghana",
+    title: "Rescue Foundation Ghana - Giving Hope in Northern Ghana",
     description: "Empowering underprivileged children, students, and families in Northern Ghana.",
-    url: "https://hopereachghana.org",
-    siteName: "HopeReach Ghana Foundation",
+    url: "https://rescuefoundationghana.org",
+    siteName: "Rescue Foundation Ghana",
     type: "website",
   },
 };

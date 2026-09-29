@@ -45,7 +45,7 @@ export default async function AboutPage() {
       <section className="bg-brand-green-900 text-white py-16 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center space-y-4">
           <span className="bg-amber-500 text-brand-green-950 text-xs font-extrabold uppercase px-3.5 py-1 rounded-full tracking-wider">
-            About HopeReach Ghana Foundation
+            About Rescue Foundation Ghana
           </span>
           <h1 className="text-4xl sm:text-5xl font-extrabold font-heading text-white tracking-tight">
             Our Mission, Values & Community Reach
@@ -96,7 +96,7 @@ export default async function AboutPage() {
           <div className="lg:col-span-6 relative h-[420px] rounded-3xl overflow-hidden shadow-xl border border-gray-100">
             <Image
               src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=1000&auto=format&fit=crop"
-              alt="HopeReach Ghana Field Team"
+              alt="Rescue Foundation Ghana Field Team"
               fill
               className="object-cover"
             />

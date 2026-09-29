@@ -28,12 +28,12 @@ export default function AdminLoginPage() {
       await signInWithEmailAndPassword(auth, email, password);
       router.push('/admin');
     } catch (err: any) {
-      // 2. Demo fallback mode for initial evaluation (admin@hopereachghana.org / admin123)
-      if (email.trim().toLowerCase() === 'admin@hopereachghana.org' && password === 'admin123') {
+      // 2. Demo fallback mode for initial evaluation (admin@rescuefoundationghana.org / admin123)
+      if ((email.trim().toLowerCase() === 'admin@rescuefoundationghana.org' || email.trim().toLowerCase() === 'admin@hopereachghana.org') && password === 'admin123') {
         setDemoAuthMode(true);
         router.push('/admin');
       } else {
-        setErrorMsg('Invalid email or password. Use admin@hopereachghana.org / admin123 or valid Firebase credentials.');
+        setErrorMsg('Invalid email or password. Use admin@rescuefoundationghana.org / admin123 or valid Firebase credentials.');
       }
     } finally {
       setLoading(false);
@@ -41,7 +41,7 @@ export default function AdminLoginPage() {
   };
 
   const handleDemoBypass = () => {
-    setEmail('admin@hopereachghana.org');
+    setEmail('admin@rescuefoundationghana.org');
     setPassword('admin123');
     setDemoAuthMode(true);
     router.push('/admin');
@@ -60,7 +60,7 @@ export default function AdminLoginPage() {
             <Heart className="w-8 h-8 fill-amber-400 stroke-brand-green-700" />
           </div>
           <h1 className="text-2xl font-extrabold font-heading text-brand-green-900 tracking-tight">
-            HopeReach Admin Portal
+            Rescue Foundation Admin Portal
           </h1>
           <p className="text-xs text-gray-500 font-light">
             Authorized Content & Management Access
@@ -91,7 +91,7 @@ export default function AdminLoginPage() {
               <input
                 type="email"
                 required
-                placeholder="admin@hopereachghana.org"
+                placeholder="admin@rescuefoundationghana.org"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="w-full bg-gray-50 border border-gray-200 rounded-xl pl-10 pr-4 py-2.5 text-xs focus:outline-none focus:border-brand-green-600 focus:bg-white"
@@ -151,7 +151,7 @@ export default function AdminLoginPage() {
             onClick={handleDemoBypass}
             className="w-full bg-amber-50 hover:bg-amber-100 text-brand-green-900 border border-amber-200 text-xs font-bold py-2 px-3 rounded-xl transition-colors"
           >
-            1-Click Demo Login (admin@hopereachghana.org)
+            1-Click Demo Login (admin@rescuefoundationghana.org)
           </button>
         </div>
 

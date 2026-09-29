@@ -57,7 +57,7 @@ export default function AdminSidebar({ unreadCount = 0, volunteerCount = 0 }: Ad
           </div>
           <div>
             <span className="font-bold font-heading text-white text-base block leading-none">
-              HopeReach Admin
+              Rescue Foundation
             </span>
             <span className="text-[10px] text-amber-400 font-semibold uppercase tracking-wider block mt-1">
               Role: {role}

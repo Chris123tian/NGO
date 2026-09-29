@@ -70,7 +70,7 @@ export default function MissionCards({ settings }: MissionCardsProps) {
           <div className="lg:col-span-6 relative h-[340px] md:h-[420px] rounded-2xl overflow-hidden shadow-md">
             <Image
               src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=1000&auto=format&fit=crop"
-              alt="HopeReach Ghana Community Support"
+              alt="Rescue Foundation Ghana Community Support"
               fill
               className="object-cover"
             />
@@ -91,7 +91,7 @@ export default function MissionCards({ settings }: MissionCardsProps) {
             </h3>
 
             <p className="text-gray-600 leading-relaxed text-sm md:text-base font-light">
-              {settings?.aboutText || "HopeReach Ghana Foundation operates with a deep commitment to transparency and dignity. We work hand-in-hand with local chiefs, school authorities, and community leaders across Northern Ghana to identify families and children facing extreme hardship."}
+              {settings?.aboutText || "Rescue Foundation Ghana operates with a deep commitment to transparency and dignity. We work hand-in-hand with local chiefs, school authorities, and community leaders across Northern Ghana to identify families and children facing extreme hardship."}
             </p>
 
             {/* Core Values Bullets */}

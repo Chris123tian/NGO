@@ -60,7 +60,7 @@ export default function Navbar({ settings }: NavbarProps) {
           <div className="flex items-center space-x-4">
             {settings?.whatsapp && (
               <a
-                href={`https://wa.me/${settings.whatsapp}?text=Hello%20HopeReach%20Ghana`}
+                href={`https://wa.me/${settings.whatsapp}?text=Hello%20Rescue%20Foundation%20Ghana`}
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center space-x-1 text-emerald-300 hover:text-emerald-100 transition-colors bg-emerald-800/60 px-2 py-0.5 rounded text-[11px]"
@@ -94,10 +94,10 @@ export default function Navbar({ settings }: NavbarProps) {
             </div>
             <div>
               <span className="text-xl font-bold font-heading text-brand-green-900 tracking-tight block leading-none">
-                HopeReach <span className="text-brand-gold-500">Ghana</span>
+                Rescue Foundation <span className="text-brand-gold-500">Ghana</span>
               </span>
               <span className="text-[11px] text-gray-500 font-medium tracking-wide block mt-0.5">
-                Humanitarian Foundation
+                Humanitarian NGO
               </span>
             </div>
           </Link>
@@ -162,7 +162,7 @@ export default function Navbar({ settings }: NavbarProps) {
               <div className="w-9 h-9 rounded-lg bg-brand-green-600 flex items-center justify-center text-amber-400">
                 <Heart className="w-5 h-5 fill-amber-400" />
               </div>
-              <span className="font-bold text-lg text-brand-green-900">HopeReach Ghana</span>
+              <span className="font-bold text-lg text-brand-green-900">Rescue Foundation Ghana</span>
             </Link>
             <button
               onClick={() => setIsMobileMenuOpen(false)}

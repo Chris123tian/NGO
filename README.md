@@ -1,6 +1,6 @@
-# HopeReach Ghana Foundation - Modern NGO Web Platform & Admin Portal
+# Rescue Foundation Ghana - Modern NGO Web Platform & Admin Portal
 
-A modern, trustworthy, compassionate, and fully dynamic web application and management dashboard for **HopeReach Ghana Foundation**, a Ghanaian non-governmental organization (NGO) dedicated to supporting underprivileged children, needy families, orphans, students, and deprived communities across Northern Ghana.
+A modern, trustworthy, compassionate, and fully dynamic web application and management dashboard for **Rescue Foundation Ghana**, a Ghanaian non-governmental organization (NGO) dedicated to supporting underprivileged children, needy families, orphans, students, and deprived communities across Northern Ghana.
 
 ---
 
@@ -87,7 +87,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 - **Admin Login Route:** `/admin/login`
 - **Demo Credentials:**
-  - **Email:** `admin@hopereachghana.org`
+  - **Email:** `admin@rescuefoundationghana.org` (or `admin@hopereachghana.org`)
   - **Password:** `admin123`
 
 ---

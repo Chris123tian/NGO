@@ -13,21 +13,21 @@ import {
 } from '@/types';
 
 export const INITIAL_SETTINGS: WebsiteSettings = {
-  orgName: "HopeReach Ghana Foundation",
+  orgName: "Rescue Foundation Ghana",
   tagline: "Giving Hope & Building Brighter Futures Across Northern Ghana",
   phone: "+233 (0) 24 123 4567 / +233 (0) 37 209 8765",
-  email: "info@hopereachghana.org",
+  email: "info@rescuefoundationghana.org",
   address: "Plot 14 Commercial Area, Opposite Jubilee Park, Tamale, Northern Region, Ghana",
   whatsapp: "233241234567",
-  facebookUrl: "https://facebook.com/hopereachghana",
-  instagramUrl: "https://instagram.com/hopereachghana",
-  youtubeUrl: "https://youtube.com/@hopereachghana",
-  tiktokUrl: "https://tiktok.com/@hopereachghana",
-  twitterUrl: "https://twitter.com/hopereachghana",
+  facebookUrl: "https://facebook.com/rescuefoundationghana",
+  instagramUrl: "https://instagram.com/rescuefoundationghana",
+  youtubeUrl: "https://youtube.com/@rescuefoundationghana",
+  tiktokUrl: "https://tiktok.com/@rescuefoundationghana",
+  twitterUrl: "https://twitter.com/rescuefoundationghana",
   mission: "To improve the lives of vulnerable children, needy families, orphans, and deprived communities across Northern Ghana and beyond by providing essential nutrition, clothing, educational resources, emergency relief, and sustainable community outreach rooted in dignity and hope.",
   vision: "A Ghana where every child, family, and vulnerable individual in even the most remote and deprived communities has access to essential human needs, quality education, and opportunities to thrive with dignity.",
-  aboutText: "HopeReach Ghana Foundation is a registered non-governmental, non-profit humanitarian organization operating at the grassroots level across Northern Ghana—including the Northern, Upper East, Upper West, Savannah, and North East Regions. Founded with a deep passion to bridge socio-economic inequalities, our outreach programs touch vulnerable children, orphans, single mothers, student scholars, and deprived rural communities. We operate with maximum transparency, compassion, and community involvement.",
-  footerText: "HopeReach Ghana Foundation is a registered NGO under the Laws of the Republic of Ghana. Working tirelessly to transform lives across underserved communities in Northern Ghana."
+  aboutText: "Rescue Foundation Ghana is a registered non-governmental, non-profit humanitarian organization operating at the grassroots level across Northern Ghana—including the Northern, Upper East, Upper West, Savannah, and North East Regions. Founded with a deep passion to bridge socio-economic inequalities, our outreach programs touch vulnerable children, orphans, single mothers, student scholars, and deprived rural communities. We operate with maximum transparency, compassion, and community involvement.",
+  footerText: "Rescue Foundation Ghana is a registered NGO under the Laws of the Republic of Ghana. Working tirelessly to transform lives across underserved communities in Northern Ghana."
 };
 
 export const INITIAL_HERO_SLIDES: HeroSlide[] = [
@@ -189,7 +189,7 @@ export const INITIAL_POSTS: Post[] = [
     content: `
       Our dedicated field team spent the past week visiting three primary schools in the Savelugu District of Northern Ghana. Many of these young pupils previously had to share single worn-out textbooks or write on scrap papers.
 
-      Thanks to generous donations from our partners and individual supporters, HopeReach Ghana Foundation successfully distributed:
+      Thanks to generous donations from our partners and individual supporters, Rescue Foundation Ghana successfully distributed:
       - 300 High-quality water-resistant backpacks
       - 1,800 Exercise books and writing stationery
       - 300 Mathematical sets and geometry toolkits
@@ -247,7 +247,7 @@ export const INITIAL_SUCCESS_STORIES: SuccessStory[] = [
   {
     id: "story-1",
     title: "From Walking 8km Barefoot to Class Prefect: Fuseini's Story",
-    summary: "Fuseini, a 11-year-old pupil from a hamlet near Yendi, received full educational support, uniform, and bicycle assistance from HopeReach Ghana.",
+    summary: "Fuseini, a 11-year-old pupil from a hamlet near Yendi, received full educational support, uniform, and bicycle assistance from Rescue Foundation Ghana.",
     community: "Yendi District",
     programInvolved: "Education & Clothing Support",
     impact: "Fuseini is now top of his class and no longer misses school during rainy seasons.",
@@ -272,7 +272,7 @@ export const INITIAL_GALLERY: GalleryItem[] = [
     title: "School Books Distribution in Tamale",
     category: "Education",
     imageUrl: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=800&auto=format&fit=crop",
-    caption: "Pupils displaying their new textbooks provided by HopeReach donors.",
+    caption: "Pupils displaying their new textbooks provided by Rescue Foundation donors.",
     published: true,
     createdAt: "2026-08-10"
   },
@@ -376,7 +376,7 @@ export const DEMO_MESSAGES: ContactMessage[] = [
     email: "e.yeboah@example.org",
     phone: "+233243009988",
     subject: "Corporate Partnership Inquiry for Desk Donations",
-    message: "Greetings HopeReach team, our company would like to donate 100 wooden school desks to schools in your network. Please let us know the logistics process.",
+    message: "Greetings Rescue Foundation team, our company would like to donate 100 wooden school desks to schools in your network. Please let us know the logistics process.",
     read: false,
     submittedAt: "2026-08-24T16:45:00Z"
   }

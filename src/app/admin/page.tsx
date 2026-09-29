@@ -101,7 +101,7 @@ export default function AdminOverviewPage() {
             Admin Dashboard
           </span>
           <h1 className="text-3xl font-extrabold font-heading text-white">
-            Welcome to HopeReach Ghana Control Center
+            Welcome to Rescue Foundation Ghana Control Center
           </h1>
           <p className="text-xs text-emerald-100 font-light max-w-xl">
             Manage public website text, programs, community campaigns, impact statistics, blog stories, photo gallery, donation logs, and volunteer applications.

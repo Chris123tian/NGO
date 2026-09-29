@@ -34,7 +34,7 @@ export default function Footer({ settings }: FooterProps) {
                 <Heart className="w-6 h-6 fill-brand-green-900" />
               </div>
               <span className="text-xl font-bold font-heading tracking-tight text-white">
-                HopeReach <span className="text-amber-400">Ghana</span>
+                Rescue Foundation <span className="text-amber-400">Ghana</span>
               </span>
             </Link>
 
@@ -116,7 +116,7 @@ export default function Footer({ settings }: FooterProps) {
               </li>
               <li className="flex items-center space-x-2.5">
                 <Mail size={16} className="text-amber-400 shrink-0" />
-                <span>{settings?.email || "info@hopereachghana.org"}</span>
+                <span>{settings?.email || "info@rescuefoundationghana.org"}</span>
               </li>
               {settings?.whatsapp && (
                 <li className="pt-1">
@@ -178,7 +178,7 @@ export default function Footer({ settings }: FooterProps) {
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between text-xs text-emerald-200/70 space-y-4 md:space-y-0">
           <div>
-            © {new Date().getFullYear()} HopeReach Ghana Foundation. All rights reserved.
+            © {new Date().getFullYear()} Rescue Foundation Ghana. All rights reserved.
           </div>
 
           <div className="flex items-center space-x-6">

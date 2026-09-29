@@ -221,7 +221,7 @@ export default function VolunteerForm() {
       {/* Why do you want to volunteer? */}
       <div>
         <label className="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-2">
-          Why do you want to volunteer with HopeReach Ghana? *
+          Why do you want to volunteer with Rescue Foundation Ghana? *
         </label>
         <textarea
           rows={4}

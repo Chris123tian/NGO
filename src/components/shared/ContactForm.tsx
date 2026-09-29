@@ -49,7 +49,7 @@ export default function ContactForm() {
           Message Sent Successfully!
         </h3>
         <p className="text-xs text-gray-700 leading-relaxed">
-          Thank you for contacting HopeReach Ghana Foundation. Our team will review your message and respond promptly.
+          Thank you for contacting Rescue Foundation Ghana. Our team will review your message and respond promptly.
         </p>
         <button
           onClick={() => setSubmitted(false)}

@@ -43,7 +43,7 @@ export default function AdminStoriesPage() {
       excerpt: editingPost.excerpt || '',
       content: editingPost.content || '',
       category: editingPost.category || 'Education',
-      author: editingPost.author || 'HopeReach Team',
+      author: editingPost.author || 'Rescue Foundation Team',
       publishedDate: editingPost.publishedDate || new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }),
       imageUrl: editingPost.imageUrl || 'https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=800&auto=format&fit=crop',
       published: editingPost.published ?? true
@@ -106,7 +106,7 @@ export default function AdminStoriesPage() {
           </div>
 
           <button
-            onClick={() => setEditingPost({ category: 'Education', published: true, author: 'HopeReach Team' })}
+            onClick={() => setEditingPost({ category: 'Education', published: true, author: 'Rescue Foundation Team' })}
             className="bg-amber-500 hover:bg-amber-400 text-brand-green-950 font-bold px-4 py-2.5 rounded-xl text-xs flex items-center space-x-1.5 shadow"
           >
             <Plus size={16} />
